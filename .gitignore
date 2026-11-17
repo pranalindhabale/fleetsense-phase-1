@@ -1,0 +1,17 @@
+# Fleetsense - Files GitHub should NEVER upload
+
+# Secrets - most important!
+.env
+.streamlit/secrets.toml
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+.venv/
+venv/
+
+# OS junk
+.DS_Store
