@@ -15,3 +15,6 @@ venv/
 
 # OS junk
 .DS_Store
+# Database - Week 2
+*.duckdb
+fleetsense.duckdb
