@@ -2,7 +2,7 @@
 
 Live NYC Taxi Dashboard built with Streamlit + DuckDB.
 
-**Team:** Ben + Pranali
+**Team:**  Pranali
 **Source:** NYC TLC Yellow Taxi Data - Jan 2024 (2.9M rows)
 
 ## What it does
