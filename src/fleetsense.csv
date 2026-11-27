@@ -1,0 +1,15 @@
+import pandas as pd
+import random
+
+# Make a small test fleetsense.csv so metrics.py can run
+rows = []
+for i in range(50):
+    rows.append({
+        'pickup_weekday': random.randint(0, 6),
+        'pickup_hour': random.randint(0, 23),
+        'fare_amount': random.randint(50, 300),
+        'trip_duration': random.randint(10, 60)
+    })
+
+pd.DataFrame(rows).to_csv('fleetsense.csv', index=False)
+print("fleetsense.csv created!")
